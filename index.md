@@ -1,23 +1,27 @@
 ---
 layout: home
-title: Home
+title: ""
 ---
 
-<p align="center">
+<div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
   <img src="https://github.com/fahmiyufrizal.png" width="100" style="border-radius: 50%;" alt="Fahmi Yufrizal profile photo" />
-</p>
 
-Hi, I'm **Fahmi Yufrizal** 👋  
-I'm a software engineer who enjoys building web apps, exploring clean architecture, and writing minimal, elegant code.
-
-- 💻 Laravel, PHP, backend stuff
-- ✍️ Writing about clean code, dev life, and tech
-- 🔗 [github.com/fahmiyufrizal](https://github.com/fahmiyufrizal)
+  <div>
+    <h2 style="margin: 0;">Hi, I'm <strong>Fahmi Yufrizal</strong> 👋</h2>
+    <p style="margin: 0.3em 0 0 0;">
+      I'm a software engineer passionate about clean architecture, Laravel, and backend development.
+    </p>
+    <p style="margin: 0.3em 0;">
+      💻 Working with Laravel & PHP · ✍️ Writing about dev life · 🔗
+      <a href="https://github.com/fahmiyufrizal" target="_blank">github.com/fahmiyufrizal</a>
+    </p>
+  </div>
+</div>
 
 ---
 
 ### 📦 Repo
-
+</br>
 <style>
   .repo-grid {
     display: grid;
@@ -61,7 +65,7 @@ I'm a software engineer who enjoys building web apps, exploring clean architectu
       document.getElementById("repo-list").innerText = "Failed to load repositories.";
     });
 </script>
+<br>
 ---
 ### 📝 Latest Posts
 <!-- Blog posts are rendered automatically -->
----
