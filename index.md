@@ -9,10 +9,10 @@ title: ""
   <div>
     <h1 style="margin: 0 0 0.3em 0;">Hi, I'm <strong>Fahmi Yufrizal</strong> 👋</h1>
     <p style="margin: 0.3em 0;">
-      Software engineer focused on backend development, Laravel, and clean architecture.
+      I make something that maybe useful, especially for diskless internet cafe and Library Automation (SLiMS)
     </p>
     <p style="margin: 0.3em 0;">
-      ✍️ Writing about dev life · 💻 Building useful tools · 🔗
+      🔗
       <a href="https://github.com/fahmiyufrizal" target="_blank">github.com/fahmiyufrizal</a>
     </p>
   </div>
@@ -20,7 +20,7 @@ title: ""
 
 ---
 
-### 📦 Repo
+### 📦 Last Repositories
 
 <style>
   .repo-grid {
