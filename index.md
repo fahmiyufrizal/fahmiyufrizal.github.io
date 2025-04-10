@@ -7,7 +7,7 @@ title: ""
   <img src="https://github.com/fahmiyufrizal.png" width="120" height="120" alt="Fahmi Yufrizal" style="border-radius: 10px;" />
 
   <div>
-    <h1 style="margin: 0 0 0.3em 0;">Hi, I'm <strong>Fahmi Yufrizal</strong> 👋</h1>
+    <h1 style="margin: 0 0 0.3em 0;">Hi, I'm <strong>Fahmi Yufrizal Yusuf</strong> 👋</h1>
     <p style="margin: 0.3em 0;">
       I make something that maybe useful, especially for diskless internet cafe and Library Automation (SLiMS)
     </p>
