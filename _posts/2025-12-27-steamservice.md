@@ -1,4 +1,6 @@
-
+---
+layout: post
+---
 # Steam Client Service without SU
 
 Cara menginisiasi "Steam Client Service" tanpa superuser (or atleast tanpa steam login)
