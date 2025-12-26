@@ -22,7 +22,6 @@ Langkah-langkah dapat disesuaikan sesuai dengan kondisi diskless di net masing-m
 ```sh
 @echo off
 net stop "Steam Client Service"
-mkdir Steam
 xcopy /s "C:\Program Files (x86)\Common Files\Steam" "%~dp0Steamservice" /-y
 rd /s /q "C:\Program Files (x86)\Common Files\Steam"
 mklink /J "C:\Program Files (x86)\Common Files\Steam" "%~dp0Steamservice"
