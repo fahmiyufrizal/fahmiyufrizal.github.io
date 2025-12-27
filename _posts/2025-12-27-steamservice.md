@@ -28,13 +28,21 @@ rd /s /q "C:\Program Files (x86)\Common Files\Steam"
 mklink /J "C:\Program Files (x86)\Common Files\Steam" "%~dp0Steamservice"
 ```
 - Setelah itu, jalankan unload.bat nya
-- Setelah selesai, edit Diskless script yang kamu punya (misal jika bawaan CCBoot, bisa memakai bawaannya dengan buka options > run batch command at client yang sudah dicentang)
+- Setelah selesai, edit Diskless script yang kamu punya
 - Isikan dengan kode berikut :
 ```sh
 @echo off
 sc CREATE "Steam Client Service" displayname= "Steam Client Service" start= demand binpath= "\"%~dp0Steamservice"\SteamService.exe\" /RunAsService"
 ```
 - Test di client
+
+## Jika menggunakan diskless script bawaan CCBoot?
+Route/tulis path nya secara lengkap dan manual agar service menjadi valid
+Contoh jika path Steamservice berada di D:\Steamservice, maka dirubah menjadi
+```sh
+@echo off
+sc CREATE "Steam Client Service" displayname= "Steam Client Service" start= demand binpath= "\"D:\Steamservice"\SteamService.exe\" /RunAsService"
+```
 
 ## Jika client tidak ada diskless script?
 Setelah melakukan unload, buat sebuah file bernama "steamclientservice.bat", isikan dengan kode berikut :
