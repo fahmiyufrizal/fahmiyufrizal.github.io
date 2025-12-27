@@ -51,3 +51,6 @@ Setelah melakukan unload, buat sebuah file bernama "steamclientservice.bat", isi
 sc CREATE "Steam Client Service" displayname= "Steam Client Service" start= demand binpath= "\"%~dp0Steamservice"\SteamService.exe\" /RunAsService"
 ```
 lalu jalankan steamclientservice.bat saat mode superuser di client
+
+## Ada pertanyaan? Butuh bantuan?
+Jangan segan-segan untuk kontak saya di fb.me/xbe24 yaa!
